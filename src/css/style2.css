@@ -1,0 +1,251 @@
+@charset "UTF-O8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+*{ 
+  margin: 0px;
+  padding: 0px; 
+}
+:root{
+  --cor0:#8C030E;
+  --cor1:#4D748C;
+  --cor2:#d8d8d8a9;
+  --cor3:#AEF2DF;
+  --cor4:#F2F2F2;
+  --cor5:#AADDF2;
+  --cor6:#434A59;
+  --cor7:#04C4D9;
+  --cor8:#F0F0F2;
+  --cor9:#5ED3FE;
+  --cor10:#e7e7e7;
+  --fonte-padrao:arial,verdana,helvetica,sans-serif;
+  --fonte-01:'Roboto', sans-serif;
+}
+.ihead{
+  max-width: 100%;
+  height: 238px;
+  margin-left: 254px;
+  background-image: linear-gradient(to right,#7DDBFD,#8ADFFC,#D3F1FC,#94E2FD);
+  border-radius: 0px 0px 0px 10px;
+
+}
+.thead {
+  font-size: small;
+  color:var(--cor6);
+  margin-left: 254px;
+  font-family: var(--fonte-01);
+}
+
+.tel {
+  text-decoration: none;
+  color: var(--cor6);
+}
+
+.tel:hover {
+  color: var(--cor0);
+  transition: 0.3s;
+  font-size: 1.5em;
+  transition: 0.3s;
+}
+
+.ihead img {
+  margin-left: 13.5%;
+  height: 236px;
+  width: 60.5%;
+  border-radius: 10px;
+}
+
+div > h4 {
+  padding-left: 250px;
+  background-image: linear-gradient(to right,#7DDBFD,#8ADFFC,#D3F1FC,#94E2FD);
+  font-family: var(--fonte-01);
+}
+
+nav {
+  background-color: var(--cor9);
+  height: 655px;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border-radius: 0px 0px 10px 0px;
+  box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.35);
+}
+
+nav a {
+  color: var(--cor4);
+  font-size:18px ;
+  display: block;
+  padding: 25px;
+  text-decoration: none;
+  font-family: var(--fonte-01);
+}
+
+nav a:hover{
+  background-color: var(--cor8);
+  color: var(--cor0);
+  text-shadow: 3px 2px 5px 0px rgba(0,0,0,0.35);
+  font-family: var(--fonte-0);
+  transition: 0.3s;
+  border-radius: 0px 15px 15px 0px;
+  font-size: 1.2em;
+  box-shadow: 5px 10px 12px -4px rgba(0,0,0,0.8);
+}
+
+main {
+  margin-left: 25%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  background-color: var(--cor10);
+  width: 1000px;
+  height: 800px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.35);
+}
+
+.content h1 {
+  font-size: 2.5em;
+  text-align: center;
+  font-family: var(--fonte-01);
+}
+
+.content h2 {
+  font-size: 2em;
+  padding:5px 0px 5px 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-family: var(--fonte-01);
+
+}
+
+.content p {
+ font-size: 1.1em;
+ padding-left: 10px;
+ font-family: var(--fonte-01);
+}
+
+.content ul {
+  padding: 5px 0px 5px 30px;
+  list-style:circle;
+  cursor: pointer;
+  display: table;
+  font-family: var(--fonte-01);
+}
+
+.content li {
+ padding: 1px;
+}
+
+.content li:hover {
+  background-color: var(--cor2);
+  border-radius: 10px;
+  box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.35);
+  color: var(--cor0);
+  list-style:square;
+  transition: 0.3s;
+}
+
+.docs {
+  padding-top: 7.7%;
+ padding-left: 70%;
+
+}
+
+button {
+  background-color: var(--cor6);
+  padding: 30px;
+  margin:25px 0px 0px 20px;
+  border-radius: 20px;
+  border-color: #ffffff;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-family: var(--fonte-01);
+  transition: 0.3s;
+ 
+}
+
+button:hover{
+  background-color: var(--cor10);
+  color: var(--cor0);
+  box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.555);
+  cursor: pointer;
+}
+
+.color-one:hover{
+  color:var(--cor0);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+body {
+  background-color: var(--cor2);
+}
+ 
+table {
+  border-collapse: collapse;
+  margin-top: 30px;
+  margin-left: 20%;
+  
+}
+
+table,h1,h3 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 10px;
+  
+}
+
+footer {
+  background-color: var(--cor6);
+  margin-top: 20px;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+  display: flex;
+}
+
+fieldset {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.fcont {
+  color: var(--cor4);
+}
+
+.social img{
+  display: inline;
+  width: 25px;
+  padding-left: 50px;
+  
+}
+
+.social img:hover{
+  width: 35px;
+  transition: 0.5s;
+  
+  
+}
+.map {
+  margin-left: 50%;
+  width: 500px;
+  height: 300px;
+  display: table;
+  box-shadow: 5px 5px 5px 0px rgb(0, 0, 0);
+  border-radius: 15px;
+}
+
+.map:hover {
+  margin-left: 5%;
+  width: 1300px;
+  height: 300px;
+  transition: 0.5s;
+  
+}
+
+
+
